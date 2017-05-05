@@ -1,0 +1,7 @@
+c:\users\j267385\documents\visual studio 2015\Projects\Week12Program\PokemonDAL\bin\Debug\PokemonDAL.dll.config
+c:\users\j267385\documents\visual studio 2015\Projects\Week12Program\PokemonDAL\bin\Debug\PokemonDAL.dll
+c:\users\j267385\documents\visual studio 2015\Projects\Week12Program\PokemonDAL\bin\Debug\PokemonDAL.pdb
+c:\users\j267385\documents\visual studio 2015\Projects\Week12Program\PokemonDAL\bin\Debug\MySql.Data.dll
+c:\users\j267385\documents\visual studio 2015\Projects\Week12Program\PokemonDAL\obj\Debug\PokemonDAL.dll
+c:\users\j267385\documents\visual studio 2015\Projects\Week12Program\PokemonDAL\obj\Debug\PokemonDAL.pdb
+c:\users\j267385\documents\visual studio 2015\Projects\Week12Program\PokemonDAL\obj\Debug\PokemonDAL.csprojResolveAssemblyReference.cache
