@@ -48,8 +48,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Models\Fuel.cs" />
+    <Compile Include="Models\Journey.cs" />
     <Compile Include="Models\Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\JourneyDistance.cs" />
+    <Compile Include="Services\FuelPurchase.cs" />
+    <Compile Include="Services\IJourneyDistance.cs" />
+    <Compile Include="Services\IFuelPurchase.cs" />
     <Compile Include="Services\IVehicleService.cs" />
     <Compile Include="Services\VehicleService.cs" />
   </ItemGroup>

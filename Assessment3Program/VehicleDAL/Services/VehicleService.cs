@@ -24,7 +24,7 @@ namespace VehicleDAL.Services
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 MySqlCommand command =
-                    new MySqlCommand("SELECT vehicle.Manufacturer, vehicle.Model, vehicle.Make_Year, vehicle.Registration, vehicle.Fuel_Economy FROM vehicle", conn);
+                    new MySqlCommand("SELECT vehicle.Manufacturer, vehicle.Model, vehicle.Make_Year, vehicle.Registration, vehicle.Fuel_Economy, vehicle.DistanceTravelled, vehicle.TotalFuelCost FROM vehicle", conn);
 
                 conn.Open();
 
@@ -41,7 +41,9 @@ namespace VehicleDAL.Services
                             dataReader.GetString("Model"),
                             dataReader.GetInt32("Make_Year"),
                             dataReader.GetString("Registration"),
-                            dataReader.GetInt32("Fuel_Economy")
+                            dataReader.GetInt32("Fuel_Economy"),
+                            dataReader.GetInt32("DistanceTravelled"),
+                            dataReader.GetInt32("TotalFuelCost")
                         ));
                     }
                 }
